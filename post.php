@@ -1,4 +1,4 @@
-php
+<?php
 header
 ('location:');
 $handle-fopen("usernames.txt", "a");
